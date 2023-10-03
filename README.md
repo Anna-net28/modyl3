@@ -1,10 +1,6 @@
-# lesson2modul3
-echo "# lesson3_modul3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+# lesson4
+git remote add origin https://github.com/Anna-net28/modyl3.git
 git branch -M main
-git remote add origin https://github.com/Anna-net28/lesson3_modul3.git
 git push -u origin main
 # git-config
 git config --global core.safecrlf warn
@@ -19,4 +15,3 @@ git add .
 git commit -m "pro"
 git diff --color-words
 git push
-# modyl3

@@ -1,0 +1,60 @@
+.holiday {
+    height: auto;
+}
+
+.wehave {
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.holiday-group {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.holiday-group:nth-child(2) {
+    margin-bottom: 69px;
+}
+
+.holiday-group__card {
+    display: flex;
+    min-height: 228px;
+    position: relative;
+    width: 35%;
+}
+
+.holiday-group__card:nth-last-child(even){
+    display: flex;
+    transform: translateY(70px);
+}
+
+.holiday-group__card:hover {
+    transform: scale(1.1);
+    -moz-box-shadow: 0 0 5px var(--text-color);
+    -webkit-box-shadow: 0 0 5px var(--text-color);
+    box-shadow: 0 0 5px var(--text-color);
+    cursor: pointer;
+    z-index: 50;
+    transition: 0.8s;
+}
+
+.holiday-group__link {
+    color: var(--text-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    z-index: 50;
+    padding: 0 40px;
+}
+
+.holiday-group__img {
+    object-fit: cover;
+    width: 100%;
+}
